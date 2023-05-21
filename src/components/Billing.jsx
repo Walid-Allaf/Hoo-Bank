@@ -5,10 +5,10 @@ import { apple, google, bill } from '../assets';
 const Billing = () => (
   <section className='flex md:flex-row flex-col-reverse gap-4 sm:py-16 py-6' id='product'>
     <div className='flex flex-1 '>
-      <img src={ bill } alt="bill" className='w-[100%] h-[100%] relative z-[5] object-contain' />
+      <img src={ bill } alt="bill" className='w-[100%] h-[100%] relative z-50 object-contain' />
 
-      <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
-      <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient' />
+      <div className='absolute z-0 w-[50%] h-[50%] -left-[50%] rounded-full white__gradient' />
+      <div className='absolute z-0 -left-[50%] w-[50%] h-[50%] rounded-full pink__gradient' />
     </div>
 
     <div className='flex flex-col flex-1 gap-6 items-start justify-center'>

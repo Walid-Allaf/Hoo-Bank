@@ -19,7 +19,7 @@ const Hero = () => (
           <GetStarted />
         </div>
       </div>
-      <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white leading-[75px] ss:leading-[100px]'>Payment Method.</h1>
+      <h1 className='font-poppins font-semibold ss:text-[72px] text-[52px] text-white leading-[75px] ss:leading-[100px]'>Payment Method.</h1>
       <p className='font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
     </div>
     <div className='flex-1 flex justify-center items-center md:my-0 my-10 relative'>

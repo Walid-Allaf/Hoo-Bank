@@ -27,19 +27,6 @@ const App = () => (
         <Footer />
       </div>
     </div>
-    
-    <div className="">
-      <div className="">
-        {/* <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer /> */}
-      </div>
-    </div>
   </div>
 );
 
